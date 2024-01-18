@@ -8,5 +8,5 @@ def read_file(file_name):
     except FileNotFoundError:
         print("Datne nav atrasta")
 
-file_name = input("Ievadiet teksta faila nosaukumu (ar .txt paplašinājumu): ")
-read_file(file_name)
+file_name = input("Ievadiet teksta faila nosaukumu ar .txt formātu paplašinājumu: ")
+print(file_name)
